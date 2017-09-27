@@ -10,13 +10,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #A8CDF7;
 }
 
 .banner {
     color: #fff;
     padding: 3rem;
     padding-top: 6rem;
+    background-color: #A8CDF7;
 }
 
 p {
@@ -28,11 +28,7 @@ p {
 a {
   text-decoration: none;
   color: #fff;
-  border-bottom: solid 0.01em #fff;
-  padding-bottom: 1em;
   font-weight: 300;
-  width: 100%;
-  padding-right: 50em;
 }
 
 h1 {
@@ -40,12 +36,14 @@ h1 {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 25em) {
-  p {
-    padding-right: 10rem;
-  }
+.bottom {
+  margin: 0;
+  width: 8%;
+  padding: 0;
+}
 
-  a {
-    padding-right: 25em;
-  }
+.main-bottom {
+  border-bottom: solid 0.01em #fff;
+  padding-bottom: 1rem;
+  padding-left: 20rem;
 }
