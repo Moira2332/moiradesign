@@ -14,15 +14,9 @@ body {
 
 .banner {
     color: #fff;
-    padding: 3rem;
-    padding-top: 6rem;
     background-color: #A8CDF7;
-}
-
-p {
-  padding-right: 18rem;
-  font-weight: 300;
-  padding-bottom: 8rem;
+    margin: auto;
+    padding-bottom: 1rem
 }
 
 a {
@@ -32,18 +26,89 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
-.bottom {
-  margin: 0;
-  width: 8%;
-  padding: 0;
+p {
+  font-weight: 300;
 }
 
-.main-bottom {
-  border-bottom: solid 0.01em #fff;
-  padding-bottom: 1rem;
-  padding-left: 20rem;
+.logo {
+  width: 50%;
+  padding: 2rem;
+}
+
+.me {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.top {
+  max-width: 60rem;
+  margin: auto;
+}
+
+h2 {
+  padding-top: 2em;
+}
+
+.text-1 {
+  padding: 1em;
+}
+
+.text-2 {
+  padding: 1em;
+  color: #FD9C8F;
+}
+
+.middle {
+  max-width: 60rem;
+  margin: auto;
+}
+
+
+@media only screen and (min-width: 60em) {
+  p {
+    font-weight: 300;
+    padding-bottom: 8rem;
+    padding-left: 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding-left: 3rem;
+  }
+
+  .bottom {
+    width: 42rem;
+  }
+
+  .main-bottom {
+    border-bottom: solid 0.05em #fff;
+    padding-bottom: 5rem;
+    max-width: 60rem;
+  }
+
+  .logo {
+    padding: 3em;
+    width: 20%;
+  }
+
+  .me {
+    width: 20%;
+  }
+
+  .top {
+    padding: 3rem;
+    padding-top: 6rem;
+    max-width: 60rem;
+    margin: auto;
+  }
+
+  .middle {
+    padding-top: 10rem;
+  }
+
 }
