@@ -58,7 +58,17 @@ p {
   color: #FD9C8F;
 }
 
+.text-3 {
+  padding: 2em;
+  color: #FD9C8F;
+}
+
 .middle {
+  max-width: 60rem;
+  margin: auto;
+}
+
+.middle2 {
   max-width: 60rem;
   margin: auto;
 }
@@ -87,7 +97,19 @@ p {
   padding-bottom: 9em;
 }
 
-@media only screen and (min-width: 30em) {
+.square3 {
+  width: 50%;
+}
+
+.user {
+  padding-bottom: 6em;
+}
+
+.home {
+  text-align: right;
+}
+
+@media only screen and (min-width: 38em) {
 
   .text-1 {
     width: 600px;
@@ -102,6 +124,20 @@ p {
     margin: auto;
   }
 
+  .square2 {
+    width: 50%;
+    padding-left: 2rem;
+    margin: auto;
+    padding-bottom: 3em;
+  }
+
+  .logo {
+    width: 30%
+  }
+
+  .text-3 {
+    padding-top: 1rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -147,7 +183,34 @@ p {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0;
-    color: #FD9C8F;
+  }
+
+  .text-3 {
+    padding-left: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .square2 {
+    width: 50%;
+    padding-left: 2rem;
+    margin: auto;
+    padding-bottom: 5em;
+  }
+
+  .sketchs {
+    width: 60%;
+    margin: auto;
+    padding-top: 6em;
+  }
+
+  .start {
+    padding-top: 3em;
+  }
+
+  .square3 {
+    width: 20%;
   }
 
 }
