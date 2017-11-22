@@ -32,7 +32,7 @@ h1 {
 
 h3 {
   font-size: 1em;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 p {
@@ -67,7 +67,7 @@ p {
 
 .text-3 {
   padding: 2em;
-  color: #FD9C8F;
+  color: #9B9B9B;
 }
 
 .middle {
@@ -114,6 +114,13 @@ p {
 
 .home {
   text-align: right;
+}
+
+.square2 {
+  width: 90%;
+  padding-left: 2rem;
+  margin: auto;
+  padding-bottom: 3em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -217,7 +224,14 @@ p {
   }
 
   .square3 {
+    width: 100%;
+  }
+
+  .square4 {
     width: 20%;
+    padding-left: .5rem;
+    margin: auto;
+    padding-bottom: 3em;
   }
 
 }
