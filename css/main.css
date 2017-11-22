@@ -30,8 +30,15 @@ h1 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
 p {
   font-weight: 300;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .logo {
@@ -107,6 +114,10 @@ p {
 
 .home {
   text-align: right;
+}
+
+main {
+  width: 800px;
 }
 
 @media only screen and (min-width: 38em) {
