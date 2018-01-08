@@ -63,16 +63,22 @@ p {
 
 .text-1 {
   padding-left: 2em;
+  max-width: 50rem;
+  margin: auto;
 }
 
 .text-2 {
   padding: 2em;
   color: #FD9C8F;
+  max-width: 50rem;
+  margin: auto;
 }
 
 .text-3 {
   padding: 2em;
   color: #9B9B9B;
+  max-width: 50rem;
+  margin: auto;
 }
 
 .middle {
@@ -146,6 +152,8 @@ footer {
   padding: 2rem;
   color: #9B9B9B;
   padding-top: 1rem;
+  max-width: 50rem;
+  margin: auto;
 }
 
 /* Slideshow container */
@@ -238,6 +246,24 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.error {
+  background-color: #A8CDF7;
+  margin: auto;
+}
+
+.message {
+  margin: auto;
+  padding: 3rem;
+  text-align: center;
+  padding-top: 11rem;
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 38em) {
