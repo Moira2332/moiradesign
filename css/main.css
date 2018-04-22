@@ -45,6 +45,7 @@ p {
   padding-left: 1rem;
   padding-top: 1rem;
   margin: 0;
+  width: 10%;
 }
 
 .nav {
@@ -69,14 +70,14 @@ p {
 
 .text-2 {
   padding: 2em;
-  color: #FD9C8F;
+  color: #b3b3b3;
   max-width: 50rem;
   margin: auto;
 }
 
 .text-3 {
   padding: 2em;
-  color: #9B9B9B;
+  color: #b3b3b3;
   max-width: 50rem;
   margin: auto;
 }
@@ -150,7 +151,7 @@ footer {
 
 .text-4 {
   padding: 2rem;
-  color: #9B9B9B;
+  color: #b3b3b3;
   padding-top: 1rem;
   max-width: 50rem;
   margin: auto;
